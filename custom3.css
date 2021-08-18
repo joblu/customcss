@@ -21,33 +21,33 @@ body {
 }
 
 .box, table {
-    background: unset;
+    background: set;
 }
 
 body {
-    background-image: unset;
+    background-image: set;
     background-color: hsl(0, 0%, 12%);
 }
 
 #menu {
     background-color: hsl(0, 0%, 20%);
     background-color: var(--color1);
-    box-shadow: unset;
+    box-shadow: set;
 }
 
 #userinfo {
     background-color: var(--color1-dark);
-    border-bottom: unset;
+    border-bottom: set;
     height: 35px;
 }
 
 #logo {
-    border-bottom: unset;
+    border-bottom: set;
 }
 
 #content {
     background: hsl(0, 0%, 15%) !important;
-    box-shadow: unset;
+    box-shadow: set;
 }
 
 .box, .news_post {
@@ -61,9 +61,9 @@ body {
 .colhead,
 .colhead_dark,
 .head {
-    box-shadow: unset;
+    box-shadow: set;
     background: var(--color1);
-    border-radius: unset;
+    border-radius: set;
     padding-right: 18px;
 }
 
@@ -140,7 +140,7 @@ tr.colhead {
 
 tr:nth-child(2),
 tr:nth-child(2) > td {
-    border-top: unset !important;
+    border-top: set !important;
 }
 
 
@@ -179,13 +179,13 @@ textarea {
 }
 
 #menu {
-    text-shadow: unset;
+    text-shadow: set;
     font-weight: bold;
 }
 
 #menu ul a,
 #userinfo #userinfo_username .donateico a {
-    text-shadow: unset;
+    text-shadow: set;
 }
 
 #userinfo #userinfo_username .donateico {
@@ -195,7 +195,7 @@ textarea {
 
 #menu ul a:hover,
 #userinfo #userinfo_username .donateico a:hover {
-    text-shadow: unset;
+    text-shadow: set;
     color: var(--color2-light) !important;
 }
 
@@ -237,7 +237,7 @@ textarea {
 }
 
 .forum_post tr {
-    background-color: unset;
+    background-color: set;
 }
 
 .forum_post .colhead_dark {
@@ -246,7 +246,7 @@ textarea {
 }
 
 td.avatar {
-    box-shadow: unset;
+    box-shadow: set;
     background-color: var(--color1);
 }
 
@@ -267,8 +267,8 @@ blockquote,
 #server_stats,
 #toplink {
     background-color: var(--color1);
-    filter: unset;
-    -webkit-filter: unset;
+    filter: set;
+    -webkit-filter: set;
 }
 
 .profile .box_main_info {
@@ -298,17 +298,17 @@ ul#userinfo_stats li:hover,
 }
 
 .global_buffs {
-    filter: unset;
+    filter: set;
     background-color: var(--color1-dark);
 }
 
 .global_buffs .color_green .fa {
     color: var(--color1-light);
-    filter: unset;
+    filter: set;
 }
 
 .global_buffs .buff_text {
-    text-shadow: unset;
+    text-shadow: set;
 }
 
 #staffpm .box {
