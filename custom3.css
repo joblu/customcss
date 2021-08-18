@@ -9,7 +9,7 @@
     --color2-light: hsl(0, 30%, 43%);
     --color1-light: hsl(180, 20%, 60%);
     --color1-bright: hsl(180, 20%, 70%);
-    --font: garamond;
+    --font: roboto;
 }
 
 * {
@@ -135,7 +135,7 @@ tr.colhead {
 
 .rowa,
 .rowb {
-    border-top: 5px dotted var(--color1);
+    border-top: 5px groove var(--color1);
 }
 
 tr:nth-child(2),
@@ -208,7 +208,7 @@ textarea {
 }
 
 #requests .main_column tr {
-    border-bottom: 3px dotted var(--color1);
+    border-bottom: 3px groove var(--color1);
 }
 
 #requests .main_column td {
@@ -242,7 +242,7 @@ textarea {
 
 .forum_post .colhead_dark {
     background-color: var(--color1);
-    border-bottom: 3px dotted var(--color1-light);
+    border-bottom: 3px groove var(--color1-light);
 }
 
 td.avatar {
@@ -255,7 +255,7 @@ td.avatar {
 }
 
 tr.likes {
-    border-top: 3px dotted var(--color1-light);
+    border-top: 3px groove var(--color1-light);
 }
 
 tr.likes td {
@@ -281,7 +281,7 @@ ul#userinfo_stats li,
 #userinfo_username .sub span,
 #torrents .groupoptions a {
     background-color: var(--color1) !important;
-    border-bottom: 3px dotted var(--color1-light) !important;
+    border-bottom: 3px groove var(--color1-light) !important;
 }
 
 #searchbars ul#torrentscomplete li:hover,
@@ -290,7 +290,7 @@ ul#userinfo_stats li:hover,
 #userinfo_username .sub span:hover,
 #torrents .groupoptions a:hover {
     background-color: var(--color2) !important;
-    border-bottom: 3px dotted var(--color1-light) !important;
+    border-bottom: 3px groove var(--color1-light) !important;
 }
 
 #collages > tbody {
